@@ -7,3 +7,4 @@ def Sum(n1,n2):
 # b=10
 ans = Sum(20,30)
 print("The sum of x and y is : ",ans)
+print("THe sum is : ",Sum(n1=10,n2=30))
