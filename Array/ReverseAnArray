@@ -1,0 +1,14 @@
+n = int(input("Enter the size of array : "))
+arr=[]
+
+print(f"Enter {n} elements : ")
+for i in range(n):
+    element = int(input())
+    arr.append(element)
+
+print("The Reversed array is : ")
+for i in range(n-1,-1,-1):
+    print(arr[i],end="")
+print()
+
+ 
