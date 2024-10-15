@@ -1,10 +1,3 @@
-# Enter elements in a list
-
-n = int(input("Enter the size of list : "))
-
-li = []
-for i in range(n):
-    ans = int(input())
-    li.append(ans)
-print(li)
-
+list = [1,2,3,4,5,6,7,8,9,10]
+n = list.reverse()
+print(n)
