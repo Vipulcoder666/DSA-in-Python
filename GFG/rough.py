@@ -1,12 +1,7 @@
-arr = [16, 17, 4, 3, 5, 2]
-count = arr[-1]
-leader = [count]
-# print(count,end=' ')
-
-for i in range(len(arr) -2,-1,-1):
-    if arr[i] >= count:
-        count = arr[i]
-        leader.append(count)
-
-leader.reverse()
-print(leader,end=' ')
+arr = [0, 2, 1, 2, 0]
+for i in range(len(arr)):
+    if arr[0] >= arr[i]:
+        arr[0] += 1
+    else:
+        arr[i] += 1
+print(arr)
