@@ -6,7 +6,7 @@
 # print(key)
 
 
-arr = [1,2,3,1,1,1,2,2]
+arr = [1,2,3,1,1,1,2,2,4]
 n = int(input("Enter the number to find : "))
 frq = arr.count(n)
 print(frq)
